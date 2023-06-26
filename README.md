@@ -13,7 +13,7 @@ const e let: Utilizei essas palavras-chave para declarar variáveis constantes e
 
 switch e case: Utilizei essas estruturas condicionais para implementar o controle de fluxo com base nas unidades de origem e destino selecionadas.<br> Dependendo dos valores dessas unidades, diferentes blocos de código são executados para realizar a conversão apropriada.
 
-function: Utilizei a palavra-chave function para definir funções que realizam tarefas específicas. No meu código, criei funções para atualizar as opções<br> de seleção das unidades de origem e destino com base na categoria selecionada, para realizar as conversões de temperatura, comprimento e peso, e para exibir mensagens de erro.
+function: Utilizei as funções que realizam tarefas específicas. No meu código, criei funções para atualizar as opções<br> de seleção das unidades de origem e destino com base na categoria selecionada, para realizar as conversões de temperatura, comprimento e peso, e para exibir mensagens de erro.
 
 addEventListener: Utilizei esse método para associar eventos a determinados elementos do formulário. No meu código, adicionei eventos do tipo "change" e "submit"<br> aos campos de seleção e ao formulário, respectivamente, para executar as ações correspondentes quando esses eventos ocorrem.
 
