@@ -17,4 +17,4 @@ function: Utilizei a palavra-chave function para definir funções que realizam 
 
 addEventListener: Utilizei esse método para associar eventos a determinados elementos do formulário. No meu código, adicionei eventos do tipo "change" e "submit"<br> aos campos de seleção e ao formulário, respectivamente, para executar as ações correspondentes quando esses eventos ocorrem.
 
-Essas construções da linguagem JavaScript foram escolhidas para criar um código organizado e modular, permitindo a implementação de diferentes funcionalidades e ações<br> de acordo com as interações do usuário.
+Essas construções da linguagem JavaScript foram escolhidas para criar um código organizado e modular, permitindo a implementação de diferentes funcionalidades e ações de acordo com as interações do usuário.
