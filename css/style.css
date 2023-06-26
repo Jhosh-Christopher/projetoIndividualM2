@@ -1,0 +1,68 @@
+/* Papel de parede do site */
+body{
+    background-image: url(../imagens/cropped-1920-1080-455565\ \(1\).png);
+}
+/* estilização do formulário */
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+/* estilização do titulo */
+.title{
+    display: flex;
+    margin: 0 auto;
+    color: #F97B22;
+    font-family: 'Staatliches', cursive;
+}
+/* Estilização do fieldset */
+.fieldset-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 3px;
+    padding: 10px;
+    background-color: #FEE8B0;
+    border: solid 5px #fff ;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 20px;
+}
+/* estilização das labels */
+.label-title{
+    display: flex;
+    font-family: 'Staatliches', cursive;
+    color: #F97B22;
+    font-size: 20px;
+    margin-top: 15px;
+}
+/* estilização das caixas de input */
+.input-box{
+    width: 120px;
+}
+/* estilização da caixa de seleção de itens */
+.select-itens{
+    display: flex;
+    width: 120px;
+    gap: 10px;
+}
+/* estilização do botão  */
+.btn-submit{
+    width: 120px;
+    margin-top: 5px;
+    color: #FEE8B0;
+    background-color: #F97B22;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+}
+/* Estilização do resultado gerado pelo JS*/
+.resultado{
+    color: #F97B22;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}

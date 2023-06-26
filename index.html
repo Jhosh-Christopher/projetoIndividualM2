@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+<!-- Fonte Staatliches -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<!-- Fonte Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <form class="form-content" id="conversorForm">
+        <fieldset class="fieldset-content">
+            <h1 class="title">Conversor de Unidades</h1>            
+                <label  for="valor" class="label-title">Valor a conveter:</label>
+                    <input type="text" id="valor" placeholder="Digite um valor" class="input-box">
+                <label  for="categoria" class="label-title">Selecione:</label>
+
+                
+                    <select id="categoria" id="selecione" class="select-itens" required>
+                        <option value="">Categorias</option>
+                        <option value="comprimento">Comprimento</option>
+                        <option value="peso">Peso</option>
+                        <option value="temperatura">Temperatura</option>
+                    </select>
+
+                    
+                <label class="label-title" for="unidadeOrigem">Unidade de Origem:</label>
+                    <select id="unidadeOrigem" required></select>
+                <label class="label-title" for="unidadeDestino">Unidade de Destino:</label>
+                    <select id="unidadeDestino" required></select>
+                <button id="btn-submit" class="btn-submit" type="submit">Converter</button>
+                    <div id="resultado" class="resultado"></div>
+        </fieldset>
+    </form>
+    </body>
+    </html>
